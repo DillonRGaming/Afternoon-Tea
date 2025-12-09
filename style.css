@@ -46,6 +46,17 @@ body {
     font-weight: 900;
 }
 
+h2 {
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 3px #b66ce1;
+    paint-order: stroke fill;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
 h1 {
     font-size: 3.8rem;
     margin-bottom: 100px;
