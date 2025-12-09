@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: #039dfc;
+    background-color: #80ceff;
     color: #000;
     font-family: 'Verdana', sans-serif;
     min-height: 100vh;
@@ -73,8 +73,10 @@ fieldset {
 }
 
 legend {
+    display: block;
     margin: 0 auto;
-    padding: 0 30px;
+    margin-top: 1000px;
+    padding: 0px 60px;
     font-size: 2.5rem;
     font-style: italic;
     text-transform: uppercase;
